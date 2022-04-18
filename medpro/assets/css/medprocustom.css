@@ -1,0 +1,141 @@
+
+/*common css*/
+body{
+	font-family: poppins!important;
+	font-weight: 400;
+	font-style: normal;
+}
+button, input, optgroup, select, textarea {
+	font-family: poppins!important;
+}
+.login100-form-btn {
+  font-size:16px !important;
+}
+
+.side-menu__label{
+  text-align: left!important;
+}
+.zmdi{
+
+ font-size: 15px!important;
+}
+/*validation css & register page css*/
+
+ #signupform{
+       position: relative;
+       /*margin: auto;*/
+  }
+  
+  input {
+      position: relative;
+     /* margin: auto;*/
+  }
+  .eye1 i{
+    position: relative;
+    top: 6%;
+    left: 86%;
+    pointer-events: all;
+    color:#7ec1ec;
+  }
+  .eye2 i{
+    position: relative;
+    top: 16%;
+    left: 86%;
+    pointer-events: all;
+     color:#7ec1ec;
+  }
+.error{
+  color: red;
+  
+}
+.valid{
+  color: green;
+  
+}
+/*css for physician portal*/
+
+
+/******************
+ *
+ * Dashboard Page Css Start Here
+ *
+ * *****************/
+ /*header title css*/
+.dashboard.page-title{
+	color: white!important;
+}
+
+/*sidebar toggle css*/
+.app-sidebar__toggle{
+	color: white!important;
+}
+
+  /*header-logo css*/
+ #header_logo.header-brand-img.light-logo1{
+ 	margin-left: 1.5rem !important;
+  
+ }
+
+ /*sidebar-menu icon css*/
+ .side-menu .side-menu__icon{
+ 	color: white!important;
+ 	height: 50px!important;
+ 	line-height: 50px!important;
+ }
+
+ /*sidebar menu label css*/
+ .side-menu__label{
+ 	color: white!important;
+ }
+
+/******************
+ *
+ * Login Page Css Start Here
+ *
+ * *****************/
+.login100-form-title{
+	padding-top: 20px;
+	line-height: 40px;
+	letter-spacing:3%;
+}
+.btn-primary{
+	box-shadow: 0 5px 10px rgb(0 0 0 / 1%)!important;
+}
+
+.eye{
+	left: 85%;
+	pointer-events: all;
+  color: #7ec1ec;
+}
+/*Login Page Css Ends Here*/
+
+
+/*.custom-file-label:after {
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(2.375rem - 2px);
+    color: #fff;
+    content: "";
+    border-left: 1px solid #eaedf1;
+    border-radius: 0 3px 3px 0;
+}*/
+
+
+/*Physician dashboard Page css*/
+
+.dashboard h1.page-title{
+	color: white!important;
+}
+
+.rounded-circle {
+  border-radius: 50%!important;
+  width: 40%;
+  height: 40%;
+  vertical-align: center;
+}
+
+.drname{
+  color: #ffff;
+  margin-top: 5px;
+}
